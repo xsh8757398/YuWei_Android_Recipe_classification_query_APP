@@ -34,7 +34,7 @@ public class MainFragment_2_1 {
     public static String userAgent =  "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Safari/537.36";
 
     //配置您申请的KEY
-    public static final String APPKEY ="389487f25cbfd729ba235de797587ecd";
+    public static final String APPKEY ="";
 
 
 
