@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/l_userId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="手机号"
+        />
+    <EditText
+        android:id="@+id/l_userPsw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="密码"
+        />
+    <TextView
+        android:id="@+id/l_message_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用短信验证码登录"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        >
+        <Button
+            android:id="@+id/l_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGrey"
+            android:text="登录"
+            android:textColor="@color/colorWhite"
+            />
+        <Button
+            android:id="@+id/l_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:text="注册"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/l_forget_psd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="160dp"
+        android:text="？忘记密码"
+        android:textColor="@color/colorPrimary"
+        />
+
+</LinearLayout>
